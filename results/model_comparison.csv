@@ -1,0 +1,3 @@
+model,checkpoint,validation_examples,accuracy,macro_f1,weighted_f1,best_validation_accuracy,final_validation_loss
+BERT,bert-base-uncased,1000,0.960,0.96,0.96,0.960,0.164303
+RoBERTa,roberta-base,1000,0.971,0.97,0.97,0.971,0.1060

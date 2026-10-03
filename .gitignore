@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local dataset files
+data/*.csv
+
+# Generated model checkpoints and experiment artifacts
+bert_finetuned/
+roberta_finetuned/
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.safetensors
+
+# Generated plots and local logs
+*.png
+*.jpg
+*.jpeg
+*.log
